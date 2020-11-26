@@ -1,0 +1,48 @@
+#menu{
+    float: left;
+    width: 100%;
+    padding:5px;
+   margin: 16 0 16 0;
+    list-style-type: none;
+    
+}
+img{
+    display: inline-block;
+    width: 75%;
+    margin:0 auto;
+    
+}
+
+#menu li{
+display: inline-table;
+}
+nav li{
+padding: 8px;
+background-color: chocolate;
+font-weight: bolder;
+width: auto;
+}
+
+body{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   padding: 10px;
+   background-image: url("/kepek/oldalhatter.jpg") ;
+}
+#menu li.aktiv{
+    border: 3px solid whitesmoke;
+    
+}
+#tartalom{
+    background-color: whitesmoke;
+    padding: 10px;
+    font-size: 16px;
+    width: 75%;
+    left: 25%;
+}
+form input.btn{
+    font-weight: bolder;
+}
+div#belep{
+    font-weight: lighter;
+    background-color: whitesmoke;
+}
